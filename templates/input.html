@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename='input.css')}}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEP Disc</title>
+</head>
+<body>
+    <main>
+        <h1>CEP Disc</h1>
+        <h2>Veja os dados de qualquer CEP</h2>
+        <hr>
+        <form action="/get_cep", method="post">
+            <input type="text" name="cep" placeholder="Digite seu CEP aqui...">
+            <input type="submit" value="Descobrir">
+        </form>
+    </main>
+    <footer>
+        <hr>
+        <p>Criado por: Pedro Henrique</p>
+        <p>Api por: Awesome API</p>
+    </footer>
+</body>
+</html>

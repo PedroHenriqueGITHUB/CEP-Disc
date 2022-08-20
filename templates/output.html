@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename='output.css')}}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEP Disc</title>
+</head>
+<body>
+    <h3>Cep: {{cep}}<br>
+        Endereço: {{adress}}<br>
+        Bairro: {{district}}<br>
+        Cidade: {{city}}<br>
+        Número da cidade no IBGE: {{city_ibge}}<br>
+        Latitude: {{lat}}<br>
+        Longitude: {{lng}}<br>
+    </h3>
+    <a href="/">
+        <input type="submit" value="Tentar outro CEP...">
+    </a>
+    <footer>
+        <hr>
+        <p>Criado por: Pedro Henrique</p>
+        <p>Api por: <a href="https://awesomeapi.com.br">Awesome API</a>
+    </footer>
+</body>
+</html>
