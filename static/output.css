@@ -1,0 +1,28 @@
+body
+{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+input[type=submit]
+{
+    color: black;
+    background-color: white;
+}
+
+footer
+{
+    margin-top: 23%;
+}
+
+a
+{
+    color: white;
+}
+
+a:visited
+{
+    color: gray;
+}

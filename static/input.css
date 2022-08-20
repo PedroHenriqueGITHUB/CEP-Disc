@@ -1,0 +1,28 @@
+body
+{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+form
+{
+    background-color: white;
+    width: 190px;
+    height: auto;
+    padding: 5px;
+    margin: auto;
+}
+
+form input[type=text],
+form input[type=submit]
+{
+    margin-bottom: 3px;
+    color: white;
+    background-color: black;
+}
+footer
+{
+    margin-top: 25%;
+}
