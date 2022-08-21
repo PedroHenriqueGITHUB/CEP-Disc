@@ -2,8 +2,8 @@
 Site para descobrir informações de um site
 
 # Requerimentos back-end (Python)
-Python 3
-Framework Flask
+Python 3,
+Framework Flask,
 Biblioteca requests
 
 # Reqyerunebtos front-end (HTML, Css)
